@@ -1,0 +1,55 @@
+body {
+    background-image: url("2.avif");
+    background-size: cover;
+    font-family: 'Helvetica Neue';
+    text-align : center;
+}
+
+.container{
+    margin: auto;
+    max-width:80%;
+    margin-top: 50px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    box-shadow:-3px -3px 5px #f9f9f9,
+                3px 3px 5px red;   
+}
+button:hover{
+    box-shadow:2px 2px 2px #f9f9f9,
+    -2px -2px 2px red; 
+}
+
+
+#increment-btn {
+    background:linear-gradient(to right, red, green) ;
+}
+
+#save-btn {
+    background:linear-gradient(to right, red, green) ;
+    
+}
+
+#save-el{
+    font-weight: bold;
+    font-size: 24px;
+}
